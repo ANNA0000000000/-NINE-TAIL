@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>My LIFF App</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1657597901-wd8l0O0g" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "กดรับทุนฟsีเลย",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "⚡ NINE TAIL ⚡",
+            "weight": "bold",
+            "align": "center",
+            "color": "#000000",
+            "size": "sm",
+            "offsetTop": "xs"
+          },
+          {
+            "type": "text",
+            "text": "สล็oตออนไลน์ NO.1",
+            "align": "center",
+            "size": "xs",
+            "offsetBottom": "xs",
+            "weight": "bold"
+          }
+        ],
+        "background": {
+          "type": "linearGradient",
+          "angle": "0deg",
+          "startColor": "#e8bb48",
+          "endColor": "#e8bb48",
+          "centerColor": "#ffff9f"
+        },
+        "cornerRadius": "xxl",
+        "paddingAll": "none",
+        "paddingTop": "none",
+        "paddingBottom": "none",
+        "paddingStart": "none",
+        "paddingEnd": "none",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none",
+        "offsetEnd": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1028672182009724980/1030795023224160367/cradid-01.jpg",
+            "size": "full"
+          }
+        ],
+        "cornerRadius": "xl",
+        "borderWidth": "light",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "⭐พิเศษสมาชิกใหม่รับโบนัสจุกๆ⭐",
+                "align": "center",
+                "color": "#ffffff",
+                "size": "md"
+              },
+              {
+                "type": "text",
+                "text": "รับโบนัส 200% ทุกวัน",
+                "color": "#ffffff",
+                "align": "center",
+                "offsetBottom": "sm",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "✨แจกเคsดิตฟsีไม่จำกัด✨",
+                "color": "#ffffff",
+                "align": "center",
+                "offsetBottom": "md",
+                "size": "sm"
+              }
+            ],
+            "margin": "md"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "รับทุนฟรี",
+                "align": "center",
+                "color": "#000000",
+                "weight": "bold"
+              }
+            ],
+            "backgroundColor": "#fed22b",
+            "cornerRadius": "xxl",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#e8bb48",
+              "endColor": "#e8bb48",
+              "centerColor": "#ffff9f"
+            },
+            "borderWidth": "semi-bold",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://lin.ee/lHA09M4"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "สมัครสมาชิก",
+                "align": "center",
+                "color": "#000000",
+                "weight": "bold"
+              }
+            ],
+            "backgroundColor": "#fed22b",
+            "borderWidth": "semi-bold",
+            "cornerRadius": "xxl",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#e8bb48",
+              "endColor": "#e8bb48",
+              "centerColor": "#ffff9f"
+            },
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://www.superjoker99.com/"
+            }
+          }
+        ],
+        "spacing": "lg"
+      }
+    ],
+    "backgroundColor": "#310003",
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#400404",
+      "endColor": "#400404",
+      "centerColor": "#c74010"
+    }
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
